@@ -1,0 +1,168 @@
+
+.auth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url('./bac (2).jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.auth .ant-row{
+  width: 100%;
+  justify-content: center;
+}
+.auth form{
+  background-color: white;
+  padding: 20px;
+}
+
+.auth .primary{
+  background-color: #0E2A47;
+  color: white;
+  font-size: 18px;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.link{
+  color: black;
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+.table-container {
+    overflow-x: auto;
+    max-width: 100%;
+    margin: 40px;
+    margin-bottom: 20px; 
+  }
+
+
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center;
+  margin: 0 1rem;
+}
+
+.container {
+  flex: 1;
+  margin: 0.5rem;
+}
+
+.select {
+  flex: 1;
+  margin: 0.5rem;
+}
+
+.date-picker {
+  flex: 2;
+  margin: 0.5rem;
+  
+}
+
+.date-picker .date{
+  height: 40px;
+  border: 1px solid black;
+}
+
+.control {
+  flex: 1;
+  margin: 0.5rem;
+  display: flex;
+  justify-content: center; 
+}
+
+.control button{
+  height: 40px;
+}
+
+.search {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.table-container {
+  margin: 1rem;
+}
+
+.select select {
+  width: 200px;  
+  height: 40px;  
+  padding: 5px;
+  font-size: 16px;
+}
+
+
+@media (max-width: 768px) {
+  .main {
+      flex-direction: column;
+      align-items: stretch; 
+  }
+
+  .container,
+  .select,
+  .date-picker,
+  .control {
+      margin: 0.5rem 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+
+  .control {
+      justify-content: center;
+  }
+
+  .search {
+      padding: 0.5rem;
+      font-size: 1rem;
+  }
+
+  .select select {
+      width: 100%;  
+      height: 40px;  
+  }
+}
+
+
+
+@media (max-width: 768px) {
+.chart-container{
+  flex-direction: column;
+  margin: 10px;
+}
+
+}
+
+  
+  @media screen and (max-width: 425px) {
+    .table-container .ant-table {
+      overflow-x: auto;
+    }
+    .table-container .ant-table table {
+      width: 100%;
+    }
+    .table-container .ant-table-thead > tr > th,
+    .table-container .ant-table-tbody > tr > td {
+      white-space: nowrap;
+    }
+    .table-container .ant-table-thead > tr > th {
+      padding: 8px 4px;
+    }
+    .table-container .ant-table-tbody > tr > td {
+      padding: 8px 4px;
+    }
+  }

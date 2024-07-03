@@ -1,0 +1,33 @@
+.navbar {
+    background-color: black;
+    width: 100%;
+    position: sticky;
+}
+
+.nav-link,
+.navbar-brand {
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+    color: white;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+
+
+
+
+
